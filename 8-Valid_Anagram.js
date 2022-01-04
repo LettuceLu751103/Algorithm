@@ -11,6 +11,7 @@ var isAnagram = function (s, t) {
           t.splice(b, 1)
           a--
           b--
+          break
         }
 
 
